@@ -52,5 +52,5 @@ plt.annotate(r'$(-0.5)^2+(%s)^2=1$' % y10, xy=(x0, y10), xycoords='data',xytext=
 ax.annotate("",xy=(1.102,0),xytext=(-1.102,0), arrowprops=dict(arrowstyle="->"))
 ax.annotate("",xy=(0,1.102),xytext=(0, -1.102), arrowprops=dict(arrowstyle="->"))
 ```
-7. Your final plot figure shown as below:
+7. Your final plot figure shown as below:  
 ![final figure](media/3_finalChart.png)
