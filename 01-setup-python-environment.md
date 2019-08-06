@@ -3,7 +3,7 @@ Microsoft Visual Studio enables you develop your python Application, to use Micr
 Download Microsoft Visual Studio online, [download Visual Studio](https://www.visualstudio.com/downloads/).
 
 ### Choose Python Development when installing Microsoft Visual Studio
-![Choose Python development](../../Linked_Image_Files/installation-python-workload.png)
+![Choose Python development](media/installation-python-workload.png)
 
 ### After installation complete, launch the Visual Studio and create a project.
 1. Select **File** > **New** > **Project**
@@ -17,7 +17,7 @@ Download Microsoft Visual Studio online, [download Visual Studio](https://www.vi
 3. Select one version, for example, Python 3.6. Select **Packages**.
 4. In the search box, type **matplotlib** and select **"pip install matplotlib" from PyPI**.
 5. Wait for the installation complete.  
-![Install matplotlib](../../Linked_Image_Files/install-matplotlib.PNG)
+![Install matplotlib](media/install-matplotlib.PNG)
 6. Repeat above two steps for **numpy**.
 
 ### Open python file, write code to plot a circle step by step
@@ -49,7 +49,7 @@ plt.show()
 ```
 7. Following screenshot shows what your application get:  
 
-![Plot the figure for the first time](../../Linked_Image_Files/1.1_plotFigure.png)
+![Plot the figure for the first time](media/1.1_plotFigure.png)
 
 ### Customize your Figure
 **NOTE:** all the code need be added before the line of `plt.show()`  
@@ -80,7 +80,7 @@ ax.spines['top'].set_color('none')
 
 4. Now, check following screenshot to see what you get:  
 
-![Customized the ticks and axis](../../Linked_Image_Files/1.2_CustomizeTicks.png)
+![Customized the ticks and axis](media/1.2_CustomizeTicks.png)
 5. If you want to move the axis to 0, just changing the value from -1 to 0 in above code.
 ```python
 ax.spines['left'].set_position(('data',0))
@@ -97,4 +97,4 @@ plt.annotate('$y$', xy=(0.5,1), ha='left', va='top', xycoords='axes fraction', t
 ```
 8. This is what your final figure looks like, pretty cool.  
 
-![A circle plot with python](../../Linked_Image_Files/1.3_withlegendandAxis.png)
+![A circle plot with python](media/1.3_withlegendandAxis.png)
