@@ -45,7 +45,7 @@ plt.plot([x0,0],[y10,y10],'k--')
 ```python
 plt.annotate(r'$(-0.5)^2+(%s)^2=1$' % y10, xy=(x0, y10), xycoords='data',xytext=(+30,+40),textcoords='offset points', arrowprops=dict(arrowstyle='->',connectionstyle="arc3,rad=.2"))
 ```
-5. Following screenshot shows what you get now:
+5. Following screenshot shows what you get now:  
 ![Final Chart of a Circle](media/2.1_finalChart.png)
 6. Add arrows onto the axis, use the `ax.annotate()`, copy following code over to variable `ax` definition:
 ```python
